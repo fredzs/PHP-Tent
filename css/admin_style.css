@@ -1,0 +1,63 @@
+/*Created by Barrett at RRPowered.com*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "arial";
+	font-size: 12px;
+}
+span {
+	float: left;
+	margin: 8;
+	padding: 20px 4px 6px 4px;
+	font-size:16px
+}
+.nav_bar {
+	width: 230px;
+	margin: 0 auto;
+}
+.nav_bar ul {
+	padding: 0;
+	margin: 0;
+	height: 80px;
+	list-style: none;
+}
+.nav_bar li {
+	background-color: #f5f5f5;
+	cursor: pointer;
+	font-weight: bold;
+	width: 120px;
+	overflow: hidden;
+	max-height: 150px;
+}
+.whole {
+	background-color: #f5f5f5;
+	margin-left: 120px;
+	font-weight: normal;
+	width: 150px;
+}
+.l4 li
+{
+	padding: 3px 5px 2px 25px;
+}
+.l3 li
+{
+	padding: 5px 25px 5px 25px;
+}
+.l2 li
+{
+	padding: 10px 25px 10px 25px;
+}
+.l1 li
+{
+	padding: 25px 25px 25px 25px;
+}
+a:link, 
+a:visited { 
+color:#000000; 
+text-decoration:underline; 
+} 
+a:hover, 
+a:active { 
+color:#FF0000; 
+text-decoration:none; 
+} 

@@ -1,0 +1,54 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>无线综合营帐系统主页</title>
+	<script src="javascripts/jquery2.min.js"></script>
+	<script src="javascripts/jquery.easing.1.3.js"></script>
+	<script src="javascripts/slides.min.jquery.js"></script>
+	<script type="text/javascript" src="css/lightbox.v2.3.jquery.min.js"></script>
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="all" />
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      SexyLightbox.initialize({color:'white', dir: 'homeimages'});
+    });
+  </script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'imgs/loading.gif',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true
+			});
+		});
+	</script>
+	<link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+<div id="container">
+	  <div id="example">
+			<div id="slides">
+				<img src="imgs/example.jpg" width="570" height="270" alt="Slide 1"></a>
+			</div>
+	    <img src="imgs/slide-frame.png" alt="Example Frame" name="frame" width="739" height="341" id="frame">
+      </div>     
+		
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="48"><div align="left"><a href="administrator_login.php?TB_iframe=true&height=200&width=400" rel="sexylightbox" target="new"><img src="imgs/web.jpg" alt="管理员登陆"/></a></div></td>
+                <td><div align="center"><a href="online_business.php" target="new"><img src="imgs/menu.jpg" alt="网上营业厅"/></a></div></td>
+                <td><div align="right"><a href="simulate.php?TB_iframe=true&height=450&width=600" rel="sexylightbox" ><img src="imgs/about.jpg" alt="模拟计费"/></a></div></td>
+              </tr>
+            </table>
+            <div id="footer">
+              <p>无线综合营帐系统&nbsp;v1.1&nbsp;&nbsp;&nbsp;Build 20120913</p>
+			  <p>&copy; 2012 Gilper All rights reserved. QQ:38425449 E-mail:fred_zs@163.com</p>
+  </div>
+</div>
+</body>
+</html>
